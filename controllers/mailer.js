@@ -77,7 +77,7 @@ export const registerMail = async (req, res) => {
     service: "gmail",
     host: "smtp.gmail.com",
   port: 465,
-  secure: false,
+  secure: true,
     auth: {
       user: ENV.USER,
       pass: ENV.USERPASSWORD,
